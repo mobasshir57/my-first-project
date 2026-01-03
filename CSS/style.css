@@ -47,11 +47,24 @@ nav a{
 
 
 section {
-  padding: 60px 20px;
+  padding: 60px 60px;
 }
 
-h2 {
+.h2 {
   margin-bottom: 24px;
+  padding: 10px;
+  padding-top: 25px;
+  border: #000000 solid;
+  background-color:#e5e0fcfe;
+  width: 200px;
+  height: 85px;
+  text-align: center;
+  border-width: .5px;
+  border-radius: 10px;  
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+           
 }
 footer {
   text-align: center;
@@ -134,9 +147,3 @@ footer {
     gap: 12px;
   }
 }
-
-/* 
-
-
-}
- */
