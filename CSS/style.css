@@ -9,14 +9,15 @@ body{
     color: #0f172a;
 }
 nav ul{
+    font-size: 20px;
     display: flex;
-    gap: 20px;
+    gap: 40px;
     list-style: none;
     padding: 20px;
 }
 nav a{
     text-decoration: none;
-    color: #0707ed;
+    color: #0e7490;
     font-weight: 600;
 }
 .hero{
@@ -99,17 +100,43 @@ footer {
     font-size: 50px;
     margin-bottom: 16px;
 }
+.header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: rgb(255, 255, 255);
+}
+.navbar{
+    max-width: 1100px;
+    margin: auto;
+    padding: 16px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+  color: #0e7490;
+  font-size: 24px;
+}
 
-/* .hero {
-  min-height: 80vh;
-  background: 
-    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-    url("../images/hero.jpg") center/cover no-repeat;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  color: white;
-  padding: 20px;
-} */
+.nab-links {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
+.nav-links a:hover {
+  color: #f97316;
+  transition: .3s;
+}
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    gap: 12px;
+  }
+}
 
+/* 
+
+
+}
+ */
